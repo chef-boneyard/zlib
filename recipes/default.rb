@@ -18,8 +18,10 @@
 #
 
 package "zlib-devel" do
-  package_name value_for_platform(
-    [ "centos", "redhat", "scientific", "suse", "fedora" ] => { "default" => "zlib-devel" },
-    "default" => 'zlib1g-dev'
-  )
+  package_name case node['platform_family']
+               when 'rhel', 'fedora', 'suse'
+                 'zlib-devel'
+               else
+                 'zlib1g-dev'
+               end
 end
