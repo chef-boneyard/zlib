@@ -7,6 +7,6 @@ version          "1.0.0"
 
 recipe "zlib", "Installs zlib development package"
 
-%w{ centos redhat scientific suse fedora ubuntu debian }.each do |os|
+%w{ centos redhat scientific suse fedora ubuntu debian arch }.each do |os|
   supports os
 end
