@@ -1,5 +1,7 @@
-Description
-====
+zlib Cookbook
+=============
+[![Build Status](https://travis-ci.org/chef-cookbooks/zlib.svg?branch=master)](http://travis-ci.org/chef-cookbooks/zlib)
+[![Cookbook Version](https://img.shields.io/cookbook/v/zlib.svg)](https://supermarket.chef.io/cookbooks/zlib)
 
 Installs development package for zlib.
 
@@ -12,7 +14,7 @@ License and Author
 ====
 
 Author:: Joshua Timberman (<joshua@chef.io>)
-Copyright:: 2009-2011, Chef Software, Inc.
+Copyright:: 2009-2015, Chef Software, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
