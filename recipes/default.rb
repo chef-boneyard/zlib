@@ -2,7 +2,7 @@
 # Cookbook Name:: zlib
 # Recipe:: default
 #
-# Copyright 2010, Chef Software, Inc.
+# Copyright 2010-2015, Chef Software, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-package "zlib-devel" do
+package 'zlib-devel' do
   package_name case node['platform_family']
                when 'rhel', 'fedora', 'suse'
                  'zlib-devel'
