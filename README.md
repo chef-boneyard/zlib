@@ -1,29 +1,25 @@
-zlib Cookbook
-=============
-[![Build Status](https://travis-ci.org/chef-cookbooks/zlib.svg?branch=master)](http://travis-ci.org/chef-cookbooks/zlib)
-[![Cookbook Version](https://img.shields.io/cookbook/v/zlib.svg)](https://supermarket.chef.io/cookbooks/zlib)
+# zlib Cookbook
+[![Build Status](https://travis-ci.org/chef-cookbooks/zlib.svg?branch=master)](http://travis-ci.org/chef-cookbooks/zlib) [![Cookbook Version](https://img.shields.io/cookbook/v/zlib.svg)](https://supermarket.chef.io/cookbooks/zlib)
 
 Installs development package for zlib.
 
-Requirements
-------------
-#### Platforms
-* Ubuntu/Debian
-* RHEL/CentOS and derivatives
-* SUSE
+## Requirements
+### Platforms
+- Ubuntu/Debian
+- RHEL/CentOS and derivatives
+- SUSE
 
-#### Chef
-* Chef 11+
+### Chef
+- Chef 11+
 
-#### Cookbooks
-* none
+### Cookbooks
+- none
 
-License & Authors
------------------
-
-**Author:** Cookbook Engineering Team (<cookbooks@chef.io>)
+## License & Authors
+**Author:** Cookbook Engineering Team ([cookbooks@chef.io](mailto:cookbooks@chef.io))
 
 **Copyright:** 2009-2015, Chef Software, Inc.
+
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
